@@ -1,0 +1,7 @@
+name: 'Android Checkout'
+description: 'Android Checkout'
+runs:
+  using: "composite"
+  steps:
+    - run: ${{ github.action_path }}/android-checkout.sh
+      shell: bash
